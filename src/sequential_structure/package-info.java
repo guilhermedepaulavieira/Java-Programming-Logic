@@ -1,1 +1,0 @@
-package sequential_structure;
