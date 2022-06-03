@@ -6,7 +6,7 @@ public class Exercise1 {
 
 	public static void main(String[] args) {
 
-		float length, widht, price = 200.00f;
+		float length, widht, price;
 
 		Scanner sc = new Scanner(System.in);
 
@@ -15,6 +15,9 @@ public class Exercise1 {
 
 		System.out.println("inform the length:");
 		length = sc.nextFloat();
+		
+		System.out.println("inform the price per square meter: ");
+		price = sc.nextFloat();
 
 		float area = length * widht;
 		float totalPrice = length * widht * price;
