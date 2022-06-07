@@ -11,73 +11,73 @@ public class uri1021 {
 		Scanner sc = new Scanner(System.in);
 		
 		double N;
-		int quociente, resto, nota, moeda;
+		int quotient, rest, grade, coin;
 		
 		N = sc.nextDouble();
 		
-		resto = (int) (N * 100.0 + 0.5);
+		rest = (int) (N * 100.0 + 0.5);
 
-		System.out.println("NOTAS:");
+		System.out.println("GRADES:");
 		
-		nota = 100;
-		quociente = resto / (nota * 100);
-		System.out.println(quociente + " nota(s) de R$ " + nota + ".00");
-	    resto = resto % (nota * 100);
+		grade = 100;
+		quotient = rest / (grade * 100);
+		System.out.println(quotient + " grades(s) de $ " + grade + ".00");
+	    rest = rest % (grade * 100);
 
-		nota = 50;
-		quociente = resto / (nota * 100);
-		System.out.println(quociente + " nota(s) de R$ " + nota + ".00");
-	    resto = resto % (nota * 100);
+		grade = 50;
+		quotient = rest / (grade * 100);
+		System.out.println(quotient + " grades(s) de $ " + grade + ".00");
+	    rest = rest % (grade * 100);
 
-		nota = 20;
-		quociente = resto / (nota * 100);
-		System.out.println(quociente + " nota(s) de R$ " + nota + ".00");
-	    resto = resto % (nota * 100);
+		grade = 20;
+		quotient = rest / (grade * 100);
+		System.out.println(quotient + " grades(s) de $ " + grade + ".00");
+	    rest = rest % (grade * 100);
 
-		nota = 10;
-		quociente = resto / (nota * 100);
-		System.out.println(quociente + " nota(s) de R$ " + nota + ".00");
-	    resto = resto % (nota * 100);
+		grade = 10;
+		quotient = rest / (grade * 100);
+		System.out.println(quotient + " grades(s) de $ " + grade + ".00");
+	    rest = rest % (grade * 100);
 
-		nota = 5;
-		quociente = resto / (nota * 100);
-		System.out.println(quociente + " nota(s) de R$ " + nota + ".00");
-	    resto = resto % (nota * 100);
+		grade = 5;
+		quotient = rest / (grade * 100);
+		System.out.println(quotient + " grades(s) de $ " + grade + ".00");
+	    rest = rest % (grade * 100);
 
-		nota = 2;
-		quociente = resto / (nota * 100);
-		System.out.println(quociente + " nota(s) de R$ " + nota + ".00");
-	    resto = resto % (nota * 100);
+		grade = 2;
+		quotient = rest / (grade * 100);
+		System.out.println(quotient + " grades(s) de $ " + grade + ".00");
+	    rest = rest % (grade * 100);
 
-	    System.out.println("MOEDAS:");
+	    System.out.println("COIN:");
 
 	    
-		moeda = 100;
-		quociente = resto / moeda;
-		System.out.println(quociente + " moeda(s) de R$ 1.00");
-	    resto = resto % moeda;
+		coin = 100;
+		quotient = rest / coin;
+		System.out.println(quotient + " coin(s) de $ 1.00");
+	    rest = rest % coin;
 
-		moeda = 50;
-		quociente = resto / moeda;
-		System.out.println(quociente + " moeda(s) de R$ 0.50");
-	    resto = resto % moeda;
+		coin = 50;
+		quotient = rest / coin;
+		System.out.println(quotient + " coin(s) de $ 0.50");
+	    rest = rest % coin;
 
-		moeda = 25;
-		quociente = resto / moeda;
-		System.out.println(quociente + " moeda(s) de R$ 0.25");
-	    resto = resto % moeda;
+		coin = 25;
+		quotient = rest / coin;
+		System.out.println(quotient + " coin(s) de $ 0.25");
+	    rest = rest % coin;
 
-		moeda = 10;
-		quociente = resto / moeda;
-		System.out.println(quociente + " moeda(s) de R$ 0.10");
-	    resto = resto % moeda;
+		coin = 10;
+		quotient = rest / coin;
+		System.out.println(quotient + " coin(s) de $ 0.10");
+	    rest = rest % coin;
 
-		moeda = 5;
-		quociente = resto / moeda;
-		System.out.println(quociente + " moeda(s) de R$ 0.05");
-	    resto = resto % moeda;
+		coin = 5;
+		quotient = rest / coin;
+		System.out.println(quotient + " moeda(s) de R$ 0.05");
+	    rest = rest % coin;
 
-		System.out.println(resto + " moeda(s) de R$ 0.01");
+		System.out.println(rest + " moeda(s) de R$ 0.01");
 	    
 		sc.close();
 	}
