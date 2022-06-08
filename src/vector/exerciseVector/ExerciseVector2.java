@@ -1,8 +1,8 @@
-package vetor.exerciseVetor;
+package vector.exerciseVector;
 
 import java.util.Scanner;
 
-public class ExerciseVetor2 {
+public class ExerciseVector2 {
 
 	public static void main(String[] args) {
 

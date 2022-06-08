@@ -1,9 +1,9 @@
-package vetor.exerciseVetor;
+package vector.exerciseVector;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExerciseVetor7 {
+public class ExerciseVector7 {
 
 	public static void main(String[] args) {
 
